@@ -1,0 +1,16 @@
+name = "SymbolicsRustTarget"
+uuid = "176e634b-549f-4490-8b6c-0e4fdefbd9cb"
+authors = ["anand jain <anandj@uchicago.edu>"]
+version = "0.1.0"
+
+[deps]
+Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
+
+[compat]
+Symbolics = "4"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
